@@ -1,4 +1,4 @@
-FROM Joengenduvel/docker-development-tools
+FROM joengenduvel/docker-development-tools
 
 ENV INTELLIJ_URL=https://download.jetbrains.com/idea/ideaIU-2016.3.tar.gz
 
