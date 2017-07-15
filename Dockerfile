@@ -10,7 +10,8 @@ RUN curl -L -o /tmp/intellij.tar.gz $INTELLIJ_URL \
 
 ADD ./intellij /bin
 
-RUN chmod +x /bin/intellij
+RUN chmod +x /bin/intellij \
+ && chown -R dev:developers /bin/idea*
 
 USER $USER
 
