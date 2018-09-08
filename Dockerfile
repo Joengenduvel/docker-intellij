@@ -2,7 +2,7 @@ FROM joengenduvel/docker-development-tools
 
 RUN apk add --no-cache libsecret
 
-ENV INTELLIJ_URL=https://download-cf.jetbrains.com/idea/ideaIU-2017.1.5.tar.gz
+ENV INTELLIJ_URL=https://download-cf.jetbrains.com/idea/ideaIU-2018.2.3.tar.gz
 
 ADD ./intellij /bin
 
